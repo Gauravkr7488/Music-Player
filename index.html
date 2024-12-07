@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <script src="https://kit.fontawesome.com/a23c95e123.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="body">
+        <div id="nav">
+            <div id="back"><i class="fa-solid fa-angle-left"></i></div>
+            <div id="menu"><i class="fa-solid fa-bars"></i></div>
+            
+        </div>
+        <div id="image">
+            <img src="./Media/Pop-Food-English-2017-20220520092523-500x500.jpg" alt="">
+        </div>
+        <div id="name">
+            <h2>ButterCup</h2>Jack Stauber
+        </div>
+        <div id="progress">
+            <audio src="./Media/Jack Stauber - Buttercup   music video.mp3"  id="progressctrl"></audio>
+            <input type="range" value="0" id="range">
+        </div>
+        <div id="ctrl">
+            <div id="prv" class="c"><i class="fa-solid fa-angle-left"></i></div>
+            <div id="play" class="c"><i class="fa-solid fa-play" id="playctrl"></i></div>
+            <div id="nxt" class="c"><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
